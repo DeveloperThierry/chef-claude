@@ -1,3 +1,5 @@
+![Screenshot of Preview](/images/preview.png)
+
 ## 👨‍🍳 Chef Claude: Your Digital Recipe Assistant
 
 A concise React.js frontend application designed to manage, display, and search through a collection of cooking recipes.
@@ -68,3 +70,5 @@ Distributed under the **MIT** License. See `LICENSE` for more information.
 ### 📝 Contributions
 
 Thank you to the SCrimba community for assets and support!
+
+![Screenshot of Preview](/images/Design.png)
