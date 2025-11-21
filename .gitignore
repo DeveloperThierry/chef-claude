@@ -1,0 +1,121 @@
+# --- General ---
+# Compiled source files and intermediate build artifacts
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.dll
+*.class
+*.pyc
+*.swp
+*~
+.DS_Store # Mac system files
+Thumbs.db # Windows system files
+ehthumbs.db
+.cache
+.project
+.settings
+.classpath
+
+# --- Dependency/Package Management ---
+/node_modules
+/jspm_packages
+/vendor
+/dist
+/build
+/out
+/lib
+/tmp
+/temp
+/log
+/logs
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# --- Editors and IDEs ---
+# Visual Studio Code
+.vscode/
+
+# IntelliJ IDEA/WebStorm/etc.
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+.netrwhist
+
+# Atom
+.atom/
+
+# --- Operating System & Desktop ---
+# Windows
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# macOS
+.DS_Store
+.Trashes
+._*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+/venv
+/env
+
+# --- Java/Maven/Gradle ---
+/target/
+/bin/
+*.jar
+*.war
+*.ear
+*.class
+# Eclipse
+.project
+.classpath
+.settings/
+
+# --- C/C++ ---
+# compiled object files
+*.o
+*.obj
+# shared libraries
+*.so
+*.dll
+# executables
+*.exe
+*.out
+
+# --- Specific Tools/Frameworks (Uncomment if needed) ---
+# # Terraform
+# .terraform/
+# *.tfplan
+#
+# # Hugo
+# /public/
+# /resources/
+#
+# # Gatsby
+# .cache/
+# /public/
+#
+# # Jekyll
+# /_site/
+
+# --- User-specific files that should not be tracked ---
+# If you have specific configuration files that contain secrets or
+# local paths, list them here. Example:
+# config/local.settings.json
+# database.yml
+
+#env
+.env
