@@ -1,19 +1,70 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+## 👨‍🍳 Chef Claude: Your Digital Recipe Assistant
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A concise React.js frontend application designed to manage, display, and search through a collection of cooking recipes.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+---
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+### ✨ Features
 
-Happy Coding!
+- **Recipe Catalog:** View a list of all available recipes.
+- **Search & Filter:** Quickly find recipes by name, ingredients, or tags.
+- **Detailed View:** See full ingredient lists, instructions, and preparation time.
+
+---
+
+### ⚙️ Tech Stack
+
+- **Frontend:** React.js
+- **State Management:** React Context API
+- **Styling:** CSS Modules
+- **Data Source:** Local JSON files (`./data/recipes.json`)
+
+---
+
+### 🚀 Getting Started
+
+#### Prerequisites
+
+- Node.js (LTS recommended)
+- npm or yarn
+
+#### Installation
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone [https://github.com/your-username/chef-claude.git](https://github.com/your-username/chef-claude.git)
+    cd chef-claude
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Run the application in development mode:**
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+    The app will open in your browser at `http://localhost:3000`.
+
+---
+
+### 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for new features or bug fixes.
+
+---
+
+### 📝 License
+
+Distributed under the **MIT** License. See `LICENSE` for more information.
+
+### 📝 Contributions
+
+Thank you to the SCrimba community for assets and support!
