@@ -1,4 +1,7 @@
 import { useState } from "react";
+import IngredientsList from './components/IngredientsList'
+import ClaudeRecipe from './components/ClaudeRecipe'
+
 export default function Main() {
   const [ingredients, setIngredients] = useState([
     "Chicken",
@@ -28,26 +31,12 @@ export default function Main() {
       </form>
 
       {ingredients.length > 0 && (
-        <section>
-          <h2>Ingredients on hand:</h2>
-          <ul className="ingredients-list" aria-live="polite">
-            {ingredients.map((ingredient, id) => (
-              <li key={id}>{ingredient}</li>
-            ))}
-          </ul>
-          {ingredients.length > 3 && (
-            <div className="get-recipe-container">
-              <div>
-                <h3>Ready for a recipe?</h3>
-                <p>Generate a recipe from your list of ingredients.</p>
-              </div>
-              <button>Get a recipe</button>
-            </div>
-          )}
-        </section>
+       <IngredientsList ingredients={ingredients}
+       toggleRecipeShown={toggleRecipeShown}
+       />
       )}
 
-      {recipeShown && <></>}
+      {recipeShown && <ClaudeRecipe/>}
     </main>
   );
 }
