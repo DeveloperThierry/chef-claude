@@ -5,22 +5,20 @@ export default function Main() {
     "Turkey",
     "Oregano",
   ]);
-  function handleSubmit(e) {
-    e.preventDefault();
-    const formData = new FormData(e.currentTarget);
+  function addIngredient(formData) {
     const newIngredient = formData.get("ingredient");
     setIngredients((prevIngredients) => [...prevIngredients, newIngredient]);
   }
   return (
     <main>
-      <form className="add-ingredient-form" onSubmit={handleSubmit}>
+      <form className="add-ingredient-form" action={addIngredient}>
         <input
           type="text"
           placeholder="e.g. oregano"
           aria-label="Add ingredient"
           name="ingredient"
         />
-        <button>Add Ingredient</button>
+        <button type="submit">Add Ingredient</button>
       </form>
       <ul>
         {ingredients.map((ingredient) => (
